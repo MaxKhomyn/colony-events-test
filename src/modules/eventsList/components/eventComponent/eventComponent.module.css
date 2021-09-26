@@ -1,0 +1,47 @@
+
+.event {
+    height: 90px;
+    padding: 26px 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: Muli;
+}
+
+.event:hover{
+    background-color: rgba(62, 118, 244, 0.14);
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.data {
+    margin-left: 8px;
+    width: calc(100% - 45px);
+}
+
+.primary {
+    font-size: 14px;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.time {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.avatar {
+    width: 37px;
+    height: 37px;
+    border-radius: 18.5px;
+}
+
+strong {
+    font-weight: 700;
+}

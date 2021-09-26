@@ -1,0 +1,10 @@
+
+.layout {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+
+    background: linear-gradient(90deg, rgba(244, 240, 243, 1) 100%, rgba(234, 243, 247, 1) 100%);
+}
